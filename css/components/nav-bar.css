@@ -1,0 +1,45 @@
+.nav {
+  background-color: whitesmoke;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(0,0,0,0.2);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.nav__list{
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__a{
+  position: relative;
+  color : #5E6265
+}
+
+.nav__notification {
+  background-color: tomato ;
+  color : white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 15px;
+  top : -15px
+}
+
+.nav__dot {
+  background-color: tomato;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  left : 25px
+
+}
