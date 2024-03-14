@@ -3,6 +3,8 @@
   justify-content: space-between;
   align-items: center;
   padding: var(--horizontal-space);
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .screen-header__title {
@@ -13,3 +15,13 @@
   margin-left: 20px;
 }
 
+.screen-header__dot {
+  background-color: tomato;
+  border-radius: 15px;
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  display: flex;
+  right:25px;
+  top : 50px;
+}
